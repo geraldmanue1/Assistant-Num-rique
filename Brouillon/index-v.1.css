@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box; /* définit la façon dont la hauteur et la largeur totale d'un élément */
+  }
+
+/* contenu html dedans : texte, image, vidéo, audio */
+  body { 
+    margin: 0; 
+  }
+/* fin contenu html dedans : texte, image, vidéo, audio */
+
+  .clearfix{
+    clear:both; /* indique que l'élément est déplacé vers le bas afin de dégager les flottements à gauche et à droite */
+  }
+
+/* photo menu */
+  .header-banner{ 
+    padding-bottom:100px;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-attachment:fixed;
+    background-size:cover;
+  }
+/* fin photo menu */
+
+/* tous le menu en haut */
+  .container-width{
+    
+    width:100%;
+    max-width:100%;
+    margin:0 auto;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+/* fin tous le menu en haut */
+/* logo + menuTextGauche */
+  .logo-container{
+    background-color: #afb345;
+    float:left; /* Position de texte à gauche */
+    width:0%; /* Conteneur large de texte se trouve MANUEL Gérald */  
+  } 
+
+  .logo { /* écran ordinateur */
+   /* background-color: #998954; Définir couleur d'arrière plan */
+    position: relative;
+    width: 300px;
+    /*background-color:#fff; */
+    top : 10px;
+    left : -30px;
+  }
+
+ .menuTextGauche{ /* MANUEL Gérald */
+    position: relative; /* Définit la façon dont un élément est positionné dans un document */
+   /* bottom : 65px;  Le bord bas de l'élément est déplacé au-dessus */
+    /*background-color:#fff; */
+    border-radius:5px; /* Définir des coins arrondis pour la bordure d'un élément */
+    width:230px; /* Largeur MANUEL Gérald */
+    padding:10px; /* Espace supplémentaire à l'intérieur */
+    margin-left: 95px; /* Définit la marge horizental à gauche */
+    min-height:30px; /* Définir la hauteur minimale d'un élément */
+    text-align:center; /* Définit l'alignement horizental d'un tableau au centre */ 
+    line-height:25px; /* Indique la hauteur minimale des lignes au sein de l'élément */
+    top: -75px;
+    left: 30px;
+    color:#4d114f;  /* Couleur de texte se trouve MANUEL Gérald */
+  }
+/* fin logo + menuTextGauche */
+
+/* menu text à droite : acueil, cv, pourquoi nous, contact */
+  .menu{ 
+   
+    float:left;
+    width:70%;   
+    margin-left:30%;
+    margin-top: 25px;
+    max-width: 100%;
+
+  }
+  
+  .menu-item{ 
+    float:left;
+    font-size:15px;
+    color:#182153;
+    width:190px;
+    padding:10px;
+    min-height:50px;
+    text-align:center;
+    line-height:30px;
+    font-weight:400;
+    max-width: 100%;
+    
+  } 
+/* fin menu texte à droite : acueil, cv, pourquoi nous, contact */
+
+
+/* lien menu */
+
+  a:link { /* lien menu : un lien normal non visité */
+    color: #4d114f;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 5px rgba(white ,0.95);
+  }
+
+  a:visited { /*lien menu : un lien que l'utilisateur a visité */
+    background-color: #182153;
+    padding: 10px;
+    color: #182153;
+    
+  }
+
+  a:active {  /* lien menu  : un lien au moment où il est cliqué */
+    background-color: rgb(237, 221, 221);
+    border: 1px solid black;
+  }
+  
+  a:hover { /*lien menu  : un lien lorsque l'utilisateur le survole (glisse le souris dans le menu) */
+    background-color:#ddd;
+    box-shadow: 0px 10px 5px 1px rgba(240, 231, 231, 0.823);  }
+/* fin lien menu */
+
+
+/* collaboration */
+.photo-accueil { 
+    padding-top:35px;
+    padding-bottom:100px;
+    margin: 80px;
+    margin-top: 50px;
+    height: 618px;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    --fill-layer-background-media-position: fixed; 
+    background-image:url("images/collobaration.jpg"), url("image/collobaration.jpg");
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+/* fin collaboration */
+
+
+/* deux block signifie SLAM et Numérique */
+.flex-container {
+  display: flex;
+  
+  /*background-color: DodgerBlue;*/
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 50px;
+  padding: 15px;
+  font-size: 18px;
+  width: 50%;
+}
+/* fin deux block signifie SLAM et Numérique */
+
+
+.partage {
+  padding-top:35px;
+  padding-bottom:100px;
+  margin: 80px;
+  height: 20%;
+  width: 30%;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  --fill-layer-background-media-position: fixed; 
+  background-image:url("images/collobaration.jpg"), url("images/collobaration.jpg");
+  background-repeat:no-repeat;
+  background-position:right center;
+  background-attachment:fixed;
+  background-size:cover;
+}
+

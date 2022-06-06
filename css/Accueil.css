@@ -1,0 +1,164 @@
+
+/* collaboration */
+.photo-accueil { 
+    padding-top:35px;
+    padding-bottom:100px;
+    margin: 80px;
+    margin-top: 140px;
+    height: 688px;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    --fill-layer-background-media-position: fixed; 
+    background-image:url("/images/collobaration.jpg");
+    background-repeat:no-repeat;
+    background-position:right center;
+    background-attachment:fixed;
+    background-size:cover;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+/* fin collaboration */
+
+
+/* deux block signifie SLAM et Numérique */
+.flex-container {
+  display: flex;
+  
+  /*background-color: DodgerBlue;*/
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 50px;
+  padding: 15px;
+  font-size: 18px;
+   width: 100%;
+   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+  /* width: 50%; */
+}
+/* fin deux block signifie SLAM et Numérique */
+
+
+.partage {
+  padding-top:35px;
+  padding-bottom:100px;
+  margin: 80px;
+  height: 250px;
+  width: 25%;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  /*--fill-layer-background-media-position: fixed;*/
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  background-image:url("images/formation-partage-pratiques-experience.jpg"), url("images/formation-partage-pratiques-experience.jpg");
+  background-repeat:no-repeat;
+  background-position:right center;
+  /* background-attachment:fixed; */
+  background-size:cover;
+}
+
+/* deux block image */
+.flex-container-image-1 {
+    display: flex;
+    
+    /*background-color: DodgerBlue;*/
+  }
+  
+  .flex-container-image-1 > div {
+    background-color: #f1f1f1;
+    margin: 60px;
+    padding: 15px;
+    font-size: 18px;
+    width: 50%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+  }
+  /* fin deux block image */
+
+  .confiance {
+    padding-top:35px;
+    padding-bottom:100px;
+    margin: 80px;
+    height: 250px;
+    width: 25%;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    /*--fill-layer-background-media-position: fixed;*/
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    background-image:url("images/confiance-ensemble.jpg"), url("images/confiance-ensemble.jpg");
+    background-repeat:no-repeat;
+    background-position:right center;
+    /* background-attachment:fixed; */
+    background-size:cover;
+  }
+
+
+  .Liberte {
+    padding-top:35px;
+    padding-bottom:100px;
+    margin: 80px;
+    height: 250px;
+    width: 25%;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    /*--fill-layer-background-media-position: fixed;*/
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    background-image:url("images/libre.jpg"), url("images/libre.jpg");
+    background-repeat:no-repeat;
+    background-position:right center;
+    /* background-attachment:fixed; */
+    background-size:cover;
+  }
+
+  .Progres {
+    padding-top:35px;
+    padding-bottom:100px;
+    margin: 80px;
+    height: 255px;
+    width: 25%;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    /*--fill-layer-background-media-position: fixed;*/
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    background-image:url("images/top-team-mentor-character-flat-illustration-vector.jpg"), url("images/top-team-mentor-character-flat-illustration-vector.jpg");
+    background-repeat:no-repeat;
+    background-position:right center;
+    /* background-attachment:fixed; */
+    background-size:cover;
+  }
+
+  .photo-groupe-ensemble { 
+    padding-top:35px;
+    padding-bottom:100px;
+    margin: 80px;
+    margin-top: 10px;
+    height: 500px;
+    color:#ffffff;
+    font-family:Helvetica, serif;
+    font-weight:100;
+    /* --fill-layer-background-media-position: fixed; */
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+
+    background-image:url("/images/ensemble.jpg"), url("images/ensemble.jpg");
+    background-repeat:no-repeat;
+    background-position:right center;
+   /* background-attachment:fixed; */
+    background-size:cover;
+    max-width: 100%;
+    max-height: 100%;
+}

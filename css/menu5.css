@@ -1,0 +1,116 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 30px 130px; /*  menu droite */
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  max-width: 100%;
+  padding-top: 20px;
+  z-index: 99;
+  color:#4d114f; /* couleur MANUEL Gérald */
+  
+
+}
+
+#navbar b.MG {
+  overflow: hidden;
+  padding-top: 50px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  max-width: 100%;
+
+  z-index: 99;
+  color:#4d114f; /* couleur MANUEL Gérald */
+
+
+}
+
+#navbar b.AN {
+  overflow: hidden;
+  padding-top: 70px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  max-width: 100%;
+  padding-left: 8px;
+  
+  z-index: 99;
+  color:#4d114f; /* couleur MANUEL Gérald */
+
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin:10px;
+
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  
+}
+
+
+
+
+
+/* lien menu */
+
+#navbar-right a:link { /* lien menu : un lien normal non visité */
+  color: #4d114f;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0px 0px 0px 5px rgba(white ,0.95);
+}
+
+#navbar-right a:visited { /*lien menu : un lien que l'utilisateur a visité */
+  background-color: #182153;
+  padding: 20px;
+  color: #182153;
+  
+}
+
+#navbar-right a:active {  /* lien menu  : un lien au moment où il est cliqué */
+  background-color: rgb(237, 221, 221);
+  border: 1px solid black;
+}
+
+#navbar-right a:hover { /*lien menu  : un lien lorsque l'utilisateur le survole (glisse le souris dans le menu) */
+  background-color:#ddd;
+  box-shadow: 0px 10px 5px 1px rgba(240, 231, 231, 0.823);  
+}
+
+/* fin lien menu */
+
+#navbar-right {
+  float: right;
+  margin-top: 20px;
+  
+}
